@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
 
 const pad = (s) => (s < 10 ? '0' : '') + s
 
-const uptime = () => formatTime(process.uptime()) 
+const uptime = () => formatTime(process.uptime()`)
        
     }
 }
