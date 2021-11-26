@@ -17,6 +17,17 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const chats: any = this.client.chats
 			
-		await M.reply(`━━━━❰ 💙ELAINA💙 ❱━━━━\n\n🔮Groups: *${this.client.chats.all().filter(chat => chat.jid.endsWith('g.us')).length}*`) 
+		await M.reply(`━━━━❰ 💙ELAINA💙 ❱━━━━\n\n🔮Groups: *${this.client.chats.all().filter(chat => chat.jid.endsWith('g.us')).length}\n const  formatTime = (seconds) => {
+        const hrs = Math.floor(seconds / (60 * 60))
+        const mins = Math.floor((seconds % (60 * 60)) / 60)
+        const secs = Math.floor(seconds % 60)
+        return `${pad(hrs)}:${pad(mins)}:${pad(secs)}`
+    }
+
+const pad = (s) => (s < 10 ? '0' : '') + s
+
+const uptime = () => formatTime(process.uptime())
+
+M.reply(uptime())*`) 
     }
 }
