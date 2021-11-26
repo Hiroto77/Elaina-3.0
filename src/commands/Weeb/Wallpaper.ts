@@ -26,7 +26,7 @@ export default class Command extends BaseCommand {
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		const chitoge: any = joined.trim().split("|");
 		const term: string = chitoge[0];
-		const amount: number = chitoge[1];
+		const amount:number = chitoge[1] || 1
 		if (term === "")
 			return void M.reply(
 				`Give me the wallpaper term and page to search,!`
