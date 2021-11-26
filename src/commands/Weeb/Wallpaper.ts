@@ -15,7 +15,7 @@ export default class Command extends BaseCommand {
 			aliases: ["wpaper"],
 			category: "weeb",
 			usage: `${client.config.prefix}wallpaper [term]`,
-			baseXp: 20,
+			baseXp: 900,
 		});
 	}
 
@@ -44,7 +44,7 @@ export default class Command extends BaseCommand {
 				`Couldn't find any matching term of wallpaper.`
 			));
 		for (let i = 0; i < amount; i++) {
-			const res = `*🌟 Here you go.*`;
+			const res = `*💙 Here you go.*`;
 			this.client.sendMessage(
 				M.from,
 				{ url: wallpaper[i].image },
