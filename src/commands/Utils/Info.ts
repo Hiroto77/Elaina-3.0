@@ -8,7 +8,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'info',
             description: 'showing total Groups',
-            category: 'moderation',
+            category: 'utils',
             usage: `${client.config.prefix}infog`,
             baseXp: 0
         })
