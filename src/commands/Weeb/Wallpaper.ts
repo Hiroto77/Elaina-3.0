@@ -29,13 +29,13 @@ export default class Command extends BaseCommand {
 		const amount: number = chitoge[1];
 		if (term === "")
 			return void M.reply(
-				`Give me the wallpaper term and page to search, Baka!`
+				`Give me the wallpaper term and page to search,!`
 			);
 		if (!amount)
 			return void M.reply(
-				`Give me the number of wallpapers to send, Baka!\n\nExample: *${this.client.config.prefix}wallpaper chitoge|5*`
+				`Give me the number of wallpapers to send!\n\nExample: *${this.client.config.prefix}wallpaper Elaina|5*`
 			);
-		if (amount > 20)
+		if (amount > 50)
 			return void M.reply(`Do you want me to spam in this group?`);
 		const wall = new AnimeWallpaper();
 		const wallpaper = await wall.getAnimeWall2(term).catch(() => null);
