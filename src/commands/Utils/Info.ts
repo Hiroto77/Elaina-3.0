@@ -17,7 +17,7 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const chats: any = this.client.chats
 			
-		await M.reply(`━━━━❰ 💙ELAINA💙 ❱━━━━\n\n🔮Groups: *${this.client.chats.all().filter(chat => chat.jid.endsWith('g.us')).length}\n\n *🚦Uptime: ${uptime()} const  formatTime = (seconds) => {
+		await M.reply(`━━━━❰ 💙ELAINA💙 ❱━━━━\n\n🔮Groups: *${this.client.chats.all().filter(chat => chat.jid.endsWith('g.us')).length}\n\n *🚦Uptime:${uptime()} construction  formatTime = (seconds) => {
 
         const hrs = Math.floor(seconds / (60 * 60))
 
@@ -25,13 +25,13 @@ export default class Command extends BaseCommand {
 
         const secs = Math.floor(seconds % 60)
 
-        return ${pad(hrs)}:${pad(mins)}:${pad(secs)}
+        return `${pad(hrs)}:${pad(mins)}:${pad(secs)}`
 
     }
 
 const pad = (s) => (s < 10 ? '0' : '') + s
 
-const uptime = () => formatTime(process.uptime()`)
+const uptime = () => formatTime(process.uptime())`)
        
     }
 }
