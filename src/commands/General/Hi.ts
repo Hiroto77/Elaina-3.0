@@ -18,8 +18,8 @@ export default class Command extends BaseCommand {
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const chitoge =
-			"https://media.tenor.com/videos/8a6408675b1f806290aaac4b939c5a98/mp4";
+		const n = ["./assets/videos/Chitoge/chitoge-hi.mp4"];
+		const chitoge = n[Math.floor(Math.random() * n.length)];
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `I don't have time to have a conversation with someone like you. Use something from *${this.client.config.prefix}help* list if you want anything. \n`,
+				caption: `Hello baka btw use +help if you want anything *${this.client.config.prefix}help* \n`,
 			}
 		);
 	};
