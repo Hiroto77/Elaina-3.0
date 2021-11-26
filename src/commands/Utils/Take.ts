@@ -17,7 +17,7 @@ export default class Command extends BaseCommand {
             command: 'take',
             aliases: ['tk'],
             description: 'steals the sticker for you',
-            category: 'media',
+            category: 'utils',
             usage: `${client.config.prefix}sticker [(as caption | tag)[sticker]]`,
             baseXp: 30
         })
