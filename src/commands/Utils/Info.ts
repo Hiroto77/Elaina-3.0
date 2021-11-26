@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
 
         const secs = Math.floor(seconds % 60)
 
-        return `${pad(hrs)}:${pad(mins)}:${pad(secs)}`
+        return ${pad(hrs)}:${pad(mins)}:${pad(secs)}
 
     }
 
