@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
             command: 'info',
             description: 'showing total Groups',
             category: 'utils',
-            usage: `${client.config.prefix}infog`,
+            usage: `${client.config.prefix}info`,
             baseXp: 0
         })
     }
