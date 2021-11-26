@@ -17,6 +17,6 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const chats: any = this.client.chats
 			
-		await M.reply(`━━━━❰ 💙ELAINA💙 ❱━━━━\n\n🔮Groups: *${chats.length}* `) 
+		await M.reply(`━━━━❰ 💙ELAINA💙 ❱━━━━\n\n🔮Groups: ${this.client.chats.all().filter(chat => chat.jid.endsWith('g.us')).length}`) 
     }
 }
