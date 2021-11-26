@@ -32,7 +32,7 @@ export default class Command extends BaseCommand {
 		const uptime = () => formatTime(process.uptime());
 		await M.reply(
 			`*━━━❰ 💙 Elaina 💙 ❱━━━*\n\n🔮 *Groups: ${
-			client.chats.all().filter(chat => chat.jid.endsWith('g.us')).length
+		this.client.chats.all().filter(chat => chat.jid.endsWith('g.us')).length
 			}*\n\n🚦 *Uptime:${uptime()}*`
 		);
 	};
