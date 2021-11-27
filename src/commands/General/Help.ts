@@ -19,15 +19,13 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            './assets/videos/well/well.mp4', './assets/videos/well/well-1.mp4', './assets/videos/well/well-2.mp4','./assets/videos/well/well-3.mp4','./assets/videos/well/well-4.mp4'
+            './assets/videos/Chitoge/chitoge.mp4'
         ]
-        let well = n[Math.floor(Math.random() * n.length)]
-        return void this.client.sendMessage(M.from, { url: well }, MessageType.video, {quoted:M.WAMessage,
+        let chitoge = n[Math.floor(Math.random() * n.length)]
+        return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `¬ hello! *@${M.sender.username}*.
-¬ ɪ'ᴍ ㄚ卂ㄒㄖ尺丨
-¬ ᴍʏ ᴘʀᴇꜰɪx ɪꜱ - "${this.client.config.prefix}"
-¬ ᴄᴏᴍᴍᴀɴᴅꜱ ᴀʀᴇ ʟɪꜱᴛᴇᴅ ʙᴇʟᴏᴡ.⬇
+            caption: `¬ hello! *@${M.sender.username}* I'm Elaina💙, my prefix is +
+
 
 🄰🄽🄸🄼🄴 〽
 
