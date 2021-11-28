@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'image',
             description: 'Will search img from the given term',
-            aliases: ['img'],
+            aliases: ['image,img'],
             category: 'utils',
             usage: `${client.config.prefix}img`
         })
