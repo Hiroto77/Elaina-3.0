@@ -76,6 +76,7 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙘𝙝𝙚𝙨𝙨 
 - ${this.client.config.prefix}𝙧𝙚𝙖𝙘𝙩 
 - ${this.client.config.prefix}𝙩𝙧𝙞𝙜𝙜𝙚𝙧 
+- ${this.client.config.prefix}𝙢𝙚𝙢𝙚
 - ${this.client.config.prefix}𝙘𝙝𝙖𝙩 
 - ${this.client.config.prefix}𝙛𝙖𝙘𝙩 
 - ${this.client.config.prefix}𝙧𝙥𝙖𝙥𝙚𝙧 
