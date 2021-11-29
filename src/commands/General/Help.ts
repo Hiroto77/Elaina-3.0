@@ -56,6 +56,7 @@ export default class Command extends BaseCommand {
 
 🄽🅂🄵🅆 〽
 - ${this.client.config.prefix}𝙖𝙣𝙖𝙡
+- ${this.client.config.prefix}𝙣𝙝𝙚𝙣𝙩𝙖𝙞
 - ${this.client.config.prefix}𝙗𝙡𝙤𝙬𝙟𝙤𝙗
 - ${this.client.config.prefix}𝙣𝙨𝙛𝙬𝙙𝙤𝙪𝙟𝙞𝙣
 - ${this.client.config.prefix}𝙣𝙨𝙛𝙬𝙡𝙤𝙡𝙞
