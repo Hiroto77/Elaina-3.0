@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
            MessageType.text
         ))
         const n = [
-            './assets/videos/Chitoge/chitoge.git.mp4'
+            './assets/videos/Chitoge/chitoge.honey.mp4'
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url:chitoge }, MessageType.video, {quoted:M.WAMessage,
