@@ -121,7 +121,7 @@ export default class MessageHandler {
 					await this.client.setXp(
 						M.sender.jid,
 						command.config.baseXp || 10,
-						50
+						500
 					);
 				}
 				// eslint-disable-next-line @typescript-eslint/no-explicit-any
