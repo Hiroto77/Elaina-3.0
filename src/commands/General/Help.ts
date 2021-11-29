@@ -114,7 +114,7 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙧𝙚𝙫𝙤𝙠𝙚
 
 🅄🅃🄸🄻🅂 〽
-
+- ${this.client.config.prefix}𝙨𝙪𝙥𝙥𝙤𝙧𝙩
 - ${this.client.config.prefix}𝙗𝙡𝙪𝙧 
 - ${this.client.config.prefix}𝙨𝙩𝙞𝙘𝙠𝙚𝙧
 - ${this.client.config.prefix}𝙞𝙢𝙖𝙜𝙚 
