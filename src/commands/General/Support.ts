@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
         (await this.client.sendMessage(
         M.sender.jid,
         `    💙MY MASTER GROUPS💙
-       💙* INVITE LINK:*💙 https://chat.whatsapp.com/KpmMvK9j2BF8hhD11z68ah
+       💙* INVITE LINK:*💙 https://chat.whatsapp.com/C0BxpYAeFVl38Fw7JQb8vG
         💙*ANIME FAN CLUB 💙 INVITE LINK🎉:*https://chat.whatsapp.com/JlKgFE0qgIAEl6alfVHbxU`,
            MessageType.text
         ))
