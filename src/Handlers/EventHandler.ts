@@ -26,9 +26,9 @@ export default class EventHandler {
 					? `Oh! No *@${
 							event.participants[0].split("@")[0]
 					  }* 🙃,Looks like you left your brain .`
-					: `Ara Ara, Congratulations *@${
+					: `WOW!,Congratulations *@${
 							event.participants[0].split("@")[0]
-					  }* got ${this.client.util.capitalize(event.action)}d${
+					  }* You have been ${this.client.util.capitalize(event.action)}d${
 							event.actor ? ` by @${event.actor.split("@")[0]}` : ""
 					  }`;
         const contextInfo = {
