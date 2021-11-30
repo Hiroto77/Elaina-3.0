@@ -47,6 +47,9 @@ export default class Command extends BaseCommand {
 🄼🄴🄳🄸🄰 〽
 
 - ${this.client.config.prefix}𝙥𝙡𝙖𝙮 
+- ${this.client.config.prefix}𝙥𝙞𝙣
+- ${this.client.config.prefix}𝙞𝙜𝙪𝙨𝙚𝙧
+- ${this.client.config.prefix}𝙞𝙜𝙥𝙧
 - ${this.client.config.prefix}𝙨𝙥𝙤𝙩𝙞𝙛𝙮 
 - ${this.client.config.prefix}𝙮𝙩𝙖𝙪𝙙𝙞𝙤 
 - ${this.client.config.prefix}𝙮𝙩𝙨𝙚𝙖𝙧𝙘𝙝 
@@ -116,7 +119,11 @@ export default class Command extends BaseCommand {
 
 🅄🅃🄸🄻🅂 〽
 - ${this.client.config.prefix}𝙨𝙪𝙥𝙥𝙤𝙧𝙩
-- ${this.client.config.prefix}𝙗𝙡𝙪𝙧 
+- ${this.client.config.prefix}𝙗𝙡𝙪𝙧
+- ${this.client.config.prefix}𝙙𝙤𝙜𝙜𝙤
+- ${this.client.config.prefix}𝙠𝙞𝙩𝙩𝙚𝙣
+ - ${this.client.config.prefix}𝙩𝙧𝙖𝙣𝙙𝙞𝙣𝙜𝙜𝙤𝙤𝙜𝙡𝙚
+- ${this.client.config.prefix}𝙩𝙧𝙖𝙣𝙙𝙞𝙣𝙜𝙮𝙩
 - ${this.client.config.prefix}𝙨𝙩𝙞𝙘𝙠𝙚𝙧
 - ${this.client.config.prefix}𝙞𝙢𝙖𝙜𝙚 
 - ${this.client.config.prefix}𝙨𝙪𝙗𝙧𝙚𝙙 
