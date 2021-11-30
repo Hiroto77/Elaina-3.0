@@ -11,10 +11,10 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'mpfp',
             aliases: ['pfp'],
-            description: 'Search wallpaper from pinterest.com. ',
+            description: 'Search matching pfp from pintrest.com. ',
             category: 'media',
             dm: true,
-            usage: `${client.config.prefix}pinterest [name]`
+            usage: `${client.config.prefix}mpfp [name]`
         })
     }
 const pp = axios.get('https://api.ichikaa.xyz/api/ppcouple');
@@ -27,6 +27,8 @@ M.reply(male, MessageType.image,
             undefined,
 'For him') ;
 M.reply(female,MessageType.image,
-            undefined,
+       undefined,
             undefined,
 'For her');
+    }
+}
