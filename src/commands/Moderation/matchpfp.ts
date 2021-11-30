@@ -11,9 +11,9 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ppcouple',
             description: `sends you matching pfp.`,
-            aliases: ['matchpfp','pp'],
+            aliases: ['matchpfp','micon'],
             category: 'moderation',
-            usage: `${client.config.prefix}pp`,
+            usage: `${client.config.prefix}micon`,
             baseXp: 50
         })
     }
