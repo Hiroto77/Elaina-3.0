@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'rank',
             description: 'Displays user-rank 📜',
-            category: 'general',
+            category: 'utils',
             usage: `${client.config.prefix}rank [tag/quote]`,
             aliases: ['rk', 'rnk'],
             baseXp: 30
