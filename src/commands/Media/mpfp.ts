@@ -17,6 +17,7 @@ export default class Command extends BaseCommand {
             usage: `${client.config.prefix}mpfp [name]`
         })
     }
+run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
 const pp = axios.get('https://api.ichikaa.xyz/api/ppcouple');
 
 const male = pp.data.male;
