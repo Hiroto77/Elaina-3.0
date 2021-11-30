@@ -23,11 +23,6 @@ if (!joined) return void M.reply('Provide the keywords you wanna search, Baka!')
         console.log(chitoge)
         const { data } = await axios.get(`https://api.ichikaa.xyz/api/ppcouple=${chitoge}`)
         if ((data as { error: string }).error) return void (await M.reply('Sorry, couldn\'t find'))
-        const buffer = await request.buffer(data.result[Math.floor(Math.random() * data.result.length)]).catch((e) => {
-            return void M.reply(e.message)
-        })
-        while (true) {
-            try {
 
 const male = pp.data.male;
 const female = pp.data.female;
