@@ -22,9 +22,14 @@ const pp = await axios.get('https://api.ichikaa.xyz/api/ppcouple');
 
 const male = pp.data.male;
 const female = pp.data.female;
-M.reply(await axios.get(male, { responseType: 'arraybuffer' }), undefined..... 
+M.reply(male, MessageType.image,
+       undefined,
+            undefined,
 'For him') ;
-M.reply(await axios.get(female, { responseType: 'arraybuffer' }), undefined.....
+M.reply(female,
+MessageType.image,
+            undefined,
+            undefined,
 'For her');
     }
 }
