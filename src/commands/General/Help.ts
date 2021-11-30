@@ -111,7 +111,8 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙖𝙘𝙩𝙞𝙫𝙖𝙩𝙚 
 - ${this.client.config.prefix}𝙙𝙚𝙖𝙘𝙩𝙞𝙫𝙖𝙩𝙚 
 - ${this.client.config.prefix}𝙙𝙚𝙢𝙤𝙩𝙚 
-- ${this.client.config.prefix}𝙥𝙧𝙤𝙢𝙤𝙩𝙚 
+- ${this.client.config.prefix}𝙥𝙧𝙤𝙢𝙤𝙩𝙚
+- ${this.client.config.prefix}𝙖𝙙𝙙 
 - ${this.client.config.prefix}𝙥𝙪𝙧𝙜𝙚 
 - ${this.client.config.prefix}𝙧𝙚𝙢𝙤𝙫𝙚 
 - ${this.client.config.prefix}𝙘𝙡𝙤𝙨𝙚 
