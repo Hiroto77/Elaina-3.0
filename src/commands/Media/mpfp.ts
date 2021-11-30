@@ -18,7 +18,16 @@ export default class Command extends BaseCommand {
         })
     }
 run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
-const pp = axios.get('https://api.ichikaa.xyz/api/ppcouple');
+if (!joined) return void M.reply('Provide the keywords you wanna search, Baka!')
+        const chitoge = joined.trim()
+        console.log(chitoge)
+        const { data } = await axios.get(`https://api.ichikaa.xyz/api/ppcouple=${chitoge}`)
+        if ((data as { error: string }).error) return void (await M.reply('Sorry, couldn\'t find'))
+        const buffer = await request.buffer(data.result[Math.floor(Math.random() * data.result.length)]).catch((e) => {
+            return void M.reply(e.message)
+        })
+        while (true) {
+            try {
 
 const male = pp.data.male;
 const female = pp.data.female;
