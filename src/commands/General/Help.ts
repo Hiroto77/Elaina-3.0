@@ -63,7 +63,7 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙣𝙝𝙚𝙣𝙩𝙖𝙞
 - ${this.client.config.prefix}𝙗𝙡𝙤𝙬𝙟𝙤𝙗
 - ${this.client.config.prefix}𝙣𝙨𝙛𝙬𝙙𝙤𝙪𝙟𝙞𝙣
-- ${this.client.config.prefix}𝙣𝙨𝙛𝙬𝙡𝙤𝙡𝙞
+- ${this.client.config.prefix}𝙣𝙡𝙤𝙡𝙞
 - ${this.client.config.prefix}𝙣𝙨𝙛𝙬𝙥𝙖𝙥𝙚𝙧
 - ${this.client.config.prefix}𝙝𝙚𝙣𝙩𝙖𝙞
 - ${this.client.config.prefix}𝙣𝙨𝙛𝙬-𝙣𝙚𝙠𝙤
@@ -71,9 +71,9 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙢𝙖𝙞𝙙
 - ${this.client.config.prefix}𝙥𝙪𝙨𝙨𝙮
 - ${this.client.config.prefix}𝙩𝙧𝙖𝙥
-- ${this.client.config.prefix}𝙣𝙨𝙛𝙬𝙟𝙤𝙠𝙚
+- ${this.client.config.prefix}𝙣𝙟𝙤𝙠𝙚
 - ${this.client.config.prefix}𝙢𝙖𝙨𝙩𝙪𝙧𝙗𝙖𝙩𝙞𝙤𝙣
-- ${this.client.config.prefix}𝙣𝙨𝙛𝙬-𝙬𝙖𝙞𝙛𝙪
+- ${this.client.config.prefix}𝙣𝙬𝙖𝙞𝙛𝙪
 
 🄵🅄🄽 〽
 
