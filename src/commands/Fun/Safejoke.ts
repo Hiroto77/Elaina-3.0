@@ -47,3 +47,5 @@ export default class Command extends BaseCommand {
             .catch((err) => {
 
                 M.reply(`✖ An error occured
+       }
+}
