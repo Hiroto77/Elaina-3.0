@@ -48,7 +48,7 @@ export default class Command extends BaseCommand {
 
 - ${this.client.config.prefix}𝙥𝙡𝙖𝙮 
 - ${this.client.config.prefix}𝙥𝙞𝙣
-- ${this.client.config.prefix}𝙢𝙥𝙛𝙥
+- ${this.client.config.prefix}𝙢𝙞𝙘𝙤𝙣
 - ${this.client.config.prefix}𝙞𝙜𝙪𝙨𝙚𝙧
 - ${this.client.config.prefix}𝙞𝙜𝙥𝙧
 - ${this.client.config.prefix}𝙨𝙥𝙤𝙩𝙞𝙛𝙮 
