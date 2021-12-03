@@ -73,7 +73,7 @@ run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
             level = 'Max'
         }
         
-        let rxp = 10
+        let rxp = simp
         if (exp < 500) {
             level = '1000'
         } else if (exp < 1000) {
