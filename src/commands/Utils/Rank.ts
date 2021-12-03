@@ -29,25 +29,25 @@ run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
      const exp = (await this.client.getUser(user)).Xp
         let role
         if (exp < 500) {
-            role = '🌸 Citizen'
+            role = '🌸 newbie'
         } else if (exp < 1000) {
-            role = '🔎 Cleric'
+            role = '🔎 user'
         } else if (exp < 2000) {
-            role = '🔮 Wizard'
+            role = '🔮 legit'
         } else if (exp < 5000) {
-            role = '♦️ Mage'
+            role = '♦️ adict'
         } else if (exp < 10000) {
-            role = '🎯 Noble'
+            role = '🎯 addicted'
         } else if (exp < 25000) {
-            role = '✨ Elite'
+            role = '✨ bot lover'
         } else if (exp < 50000) {
-            role = '🔶️ Ace'
+            role = '🔶️ ace'
         } else if (exp < 75000) {
-            role = '🌀 Hero'
+            role = '🌀 conquerer'
         } else if (exp < 100000) {
-            role = '💎 Supreme'
+            role = '💎 simp'
         } else {
-            role = '❄️ Mystic'
+            role = '❄️ simp'
         }
 
         let level
@@ -70,10 +70,10 @@ run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
         } else if (exp < 100000) {
             level = '9'
         } else {
-            level = 'Max'
+            level = 'simp'
         }
         
-        let rxp = simp
+        let rxp = 10
         if (exp < 500) {
             level = '1000'
         } else if (exp < 1000) {
