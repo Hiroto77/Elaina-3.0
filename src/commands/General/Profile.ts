@@ -36,7 +36,7 @@ export default class Command extends BaseCommand {
         const exp = (await this.client.getUser(user)).Xp
         let role
         if (exp < 500) {
-            role = '🌸 Citizen'
+            role = '🌸 newbie'
         } else if (exp < 1000) {
             role = '🔎 Cleric'
         } else if (exp < 2000) {
@@ -48,13 +48,13 @@ export default class Command extends BaseCommand {
         } else if (exp < 25000) {
             role = '✨ Elite'
         } else if (exp < 50000) {
-            role = '🔶️ Ace'
+            role = '🔶️ bot addicted'
         } else if (exp < 75000) {
             role = '🌀 Hero'
         } else if (exp < 100000) {
             role = '💎 Supreme'
         } else {
-            role = '❄️ Mystic'
+            role = '❄️ Simp'
         }
 
         let level
