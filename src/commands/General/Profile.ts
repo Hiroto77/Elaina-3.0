@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
         } catch (err) {
             M.reply(`NO PIC THERE ANYWAYS`)
             pfp =
-                'https://https://wallpaperaccess.com/full/4443552.jpg'
+                'https://wallpaperaccess.com/full/4443552.jpg'
         }
         const exp = (await this.client.getUser(user)).Xp
         let role
