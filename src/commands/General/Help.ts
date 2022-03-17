@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
         let chitoge = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `¬ hello! *@${M.sender.username}* I'm Elaina💙, my prefix is +
+            caption: `¬ hello! *@${M.sender.username}* I'm Elaina💙, my prefix is ${WAClient.config.prefix}
 
 
 🄰🄽🄸🄼🄴 〽
@@ -44,6 +44,7 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙧𝙥𝙖𝙥𝙚𝙧
 - ${this.client.config.prefix}𝙫𝙩𝙪𝙗𝙚𝙧 
 - ${this.client.config.prefix}𝙢𝙖𝙣𝙜𝙖
+
 🄼🄴🄳🄸🄰 〽
 
 - ${this.client.config.prefix}𝙥𝙡𝙖𝙮 
@@ -58,22 +59,6 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙜𝙤𝙤𝙜𝙡𝙚 
 - ${this.client.config.prefix}𝙡𝙮𝙧𝙞𝙘𝙨
 
-🄽🅂🄵🅆 〽
-- ${this.client.config.prefix}𝙖𝙣𝙖𝙡
-- ${this.client.config.prefix}𝙣𝙝𝙚𝙣𝙩𝙖𝙞
-- ${this.client.config.prefix}𝙗𝙡𝙤𝙬𝙟𝙤𝙗
-- ${this.client.config.prefix}𝙣𝙨𝙛𝙬𝙙𝙤𝙪𝙟𝙞𝙣
-- ${this.client.config.prefix}𝙣𝙡𝙤𝙡𝙞
-- ${this.client.config.prefix}𝙣𝙨𝙛𝙬𝙥𝙖𝙥𝙚𝙧
-- ${this.client.config.prefix}𝙝𝙚𝙣𝙩𝙖𝙞
-- ${this.client.config.prefix}𝙣𝙨𝙛𝙬-𝙣𝙚𝙠𝙤
-- ${this.client.config.prefix}𝙩𝙝𝙞𝙜𝙝𝙨
-- ${this.client.config.prefix}𝙢𝙖𝙞𝙙
-- ${this.client.config.prefix}𝙥𝙪𝙨𝙨𝙮
-- ${this.client.config.prefix}𝙩𝙧𝙖𝙥
-- ${this.client.config.prefix}𝙣𝙟𝙤𝙠𝙚
-- ${this.client.config.prefix}𝙢𝙖𝙨𝙩𝙪𝙧𝙗𝙖𝙩𝙞𝙤𝙣
-- ${this.client.config.prefix}𝙣𝙬𝙖𝙞𝙛𝙪
 
 🄵🅄🄽 〽
 
@@ -138,7 +123,7 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙪𝙧𝙗𝙖𝙣𝙙𝙞𝙘𝙩𝙞𝙤𝙣𝙖𝙧𝙮 
 - ${this.client.config.prefix}𝙜𝙞𝙩𝙝𝙪𝙗 
 
-💙𝙉𝙤𝙩𝙚: 𝙐𝙨𝙚 +𝙝𝙚𝙡𝙥 <𝙘𝙤𝙢𝙢𝙖𝙣𝙙_𝙣𝙖𝙢𝙚> 𝙩𝙤 𝙫𝙞𝙚𝙬 𝙩𝙝𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙 𝙞𝙣𝙛𝙤.` }
+💙𝙉𝙤𝙩𝙚: 𝙐𝙨𝙚 !𝙝𝙚𝙡𝙥 <𝙘𝙤𝙢𝙢𝙖𝙣𝙙_𝙣𝙖𝙢𝙚> 𝙩𝙤 𝙫𝙞𝙚𝙬 𝙩𝙝𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙 𝙞𝙣𝙛𝙤.` }
         )
     }
 }
