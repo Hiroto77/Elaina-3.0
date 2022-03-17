@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
         let chitoge = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `¬ hello! *@${M.sender.username}* I'm Elaina💙, my prefix is ${WAClient.config.prefix}
+            caption: `Hello! *@${M.sender.username}* I'm Elaina💙, my prefix is "!"
 
 
 🄰🄽🄸🄼🄴 〽
